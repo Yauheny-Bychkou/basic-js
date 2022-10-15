@@ -23,13 +23,6 @@ function getSumOfDigits(n) {
   }
   console.log(summ);
   return summ;
-  // let sum = String(n)
-  //   .split("")
-  //   .reduce((acc, el) => acc + Number(el), 0);
-  // if (String(sum).length > 1) {
-  //   sum = getSumOfDigits(sum);
-  // }
-  // return sum;
 }
 
 module.exports = {
